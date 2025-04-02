@@ -6,14 +6,14 @@ console.log(x().then((value) => {
     console.log(value); // 42
 }
 ));
-
+/*
 const getX = async () => {
     const number = await x();
     console.log(number);
 }
 
 getX();
-
+*/
 const newX = async (success = true) => {
     if (success) {
         return 42;
